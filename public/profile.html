@@ -5,14 +5,18 @@
   <head>
     <div class="w3-center w3-red w3-jumbo">Profile</div>
     <div class="w3-blue">
-        <div id="profileName" class="w3-half w3-blue" style="display: flex;"> <p><img src="img/defaultProfile.png" ref="DefaultProfilePic" id="profilePic"> profileName</p></div>
-        <div class="w3-half w3-blue" style="display: flex;"><p>Search: <input type="text" name="search"></p></div>
+        <div id="profileName" class="w3-half w3-blue" style="display: flex; height:50px;"> <p><img src="img/defaultProfile.png" ref="DefaultProfilePic" id="profilePic"><a href="profile.html">profileName</a></p></div>
+        <div class="w3-half w3-blue" style="display: flex; height:50px">
+            <p><a href="index.html">Home</a></p>
+            <p style="text-align: right; width: 100%">Search: <input type="text" name="search"></p>
+            
+        </div>
     </div>
   </head>
   <body>
     <div>
         <div class="w3-half">
-            <div class="w3-green">Top 5 Tracks</div>
+            <div class="w3-green w3-center">Top 5 Tracks</div>
             <table class="w3-center w3-table-all">
                 <tr>
                     <td id="musicElement"><img src="img/defaultMusic.png" id="musicPic"></td>
@@ -47,7 +51,7 @@
             </table>
         </div>
         <div class="w3-half">
-            <div class="w3-red">Top 5 Artists</div>
+            <div class="w3-red w3-center">Top 5 Artists</div>
             <table class="w3-center w3-table-all">
                 <tr>
                     <td id="musicElement"><img src="img/defaultMusic.png" id="musicPic"></td>
