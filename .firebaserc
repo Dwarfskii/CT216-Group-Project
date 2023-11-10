@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "test-5a9bd"
-  }
+    "default": "spotifywebapp-f5af1",
+    "spotify": "spotifywebapp-f5af1",
+    "webapp": "test-5a9bd"
+  },
+  "targets": {},
+  "etags": {}
 }
