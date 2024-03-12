@@ -121,6 +121,20 @@
              
             </tr>
         </table>
+        <table class="info2">
+          <thead>
+            <tr class="info">
+              <th class="info">Picture</th>
+              <th class="info">Name</th>
+              <th class="info">Description</th>
+            </tr>
+          </thead>
+          <tr class="info" v-for="song in songs" :key="song.id">
+            <td class="info"><img :src="song.img" :alt="song.title" class="centre"></td>
+            <td class="info">{{ song.songName }}</td>
+            <td class="info">{{ song.artist }}</td>
+          </tr>
+        </table>
         </div>
         <div v-if="pageTwo">
           <h1> PAGE TWO</h1>
@@ -195,7 +209,12 @@ export default {
       firstName:'',
       lastName:'',
       email:'',
-      password:''
+      password:'',
+      songs: [
+            { img:'question mark.jpg', songName: 'song1', artist: 'artist1',id:1},
+            { img:'question mark.jpg',songName: 'song2', artist: 'artist2',id:2},
+            { img:'question mark.jpg',songName: 'song3', artist: 'artist3',id:3}
+    ]
    
     }
   },

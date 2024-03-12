@@ -3,7 +3,7 @@ body{
 }
 body{
   background-color: black;
-  color: white;
+  color: #000000;
 }
 
 .mainSubject{
@@ -54,8 +54,16 @@ table.info{
   border: #000000;
   border-style: dashed;
   width: 100%;
-  margin-left: 100px;
+  margin: auto;
   
+}
+table.info2{
+  border-color: white;
+  border: #000000;
+  border-style: dashed;
+  width: 800px;
+  margin: auto;
+
 }
 tr.info{
   background-color: green;
