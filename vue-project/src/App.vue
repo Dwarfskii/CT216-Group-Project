@@ -1,4 +1,5 @@
 <template>
+  <div>
   <h1>{{  title }}</h1>
   <teleport to=".modals" v-if="showModal">
     <Modal  theme="" @close="toggleModal">
@@ -190,7 +191,7 @@
         <br>
         
     </body>
-  
+  </div>
 </template>
 
 <script>
