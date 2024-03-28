@@ -1,0 +1,358 @@
+
+body{
+  background-color: black;
+  color: white;
+  background-image: url('blurGrandCanyon.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+h2{
+ color: black;
+ text-align: center;
+ font-size: 40px;
+ border-bottom-width: 4px;
+ border-bottom-color: green;
+}
+ul {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color:green ;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li:hover {
+  background-color: #000000;
+}
+
+.active {
+  background-color: #000000;
+}
+table.info{
+  border-color: white;
+  border: #ffffff;
+  border-style: dashed;
+  width: 100%;
+  margin-left: 100px;
+  opacity: .5;
+  
+}
+tr.info{
+  background-color: rgb(116, 190, 116);
+  
+}
+th.info{
+  padding: 5px;
+  width: 250px;
+}
+td.info{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  text-align: left;
+}
+.centre{
+  width: 100px;
+  height: 100px;
+  padding-left: 12px;
+}
+th.namePlusDescription{
+  width:250px;
+}
+
+.big{
+  width: 900px;
+  border-style: double;
+  border-color: white;
+  background-color: aqua;
+}
+.wide{
+  width: 350px;;
+  padding-left: 100px;
+}
+table.example{
+  
+  color: black;
+  border-radius: 10px;
+  margin: 0 auto;
+  
+}
+button.spotify{
+  font-size: large;
+  padding: 10px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+}
+tr.example{
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+th.example{
+  width: 650px;
+  border-radius: 10px;
+}
+
+.log{
+  color: #000000;
+  margin-left: 170px;
+}
+
+/*Stle for header*/
+
+
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d9dbdd; /* Light grayish-blue background */
+  color: #090808;
+  line-height: 1.6;
+  text-align: center;
+}
+
+
+/* Heading styles */
+h1 {
+  font-size: 2.5rem; /* Larger heading size */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 10px;
+  color: #343434; /* Darker heading color */
+  text-align: center;
+}
+
+/* Form styles */
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 15px; /* Slightly reduced padding */
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px; /* Smoother border radius */
+  background-color: #f8f9fa; /* Light grayish-blue background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem; /* Slightly reduced font size */
+  outline: none;
+}
+
+.form input[type="email"]::placeholder,
+.form input[type="password"]::placeholder {
+  color: #666;
+}
+
+
+
+/* SearchArtist page styles */
+.searchArtist {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.searchArtist input[type="text"] {
+  width: calc(100% - 40px); /* Adjusted width */
+  padding: 20px; /* Increased padding for bigger text boxes */
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f8f9fa; /* Light grayish-blue background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.searchArtist input[type="text"]::placeholder {
+  color: #666;
+}
+
+.searchArtist button {
+  max-width: 200px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50; /* Green background */
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.searchArtist button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+.loginSpotify {
+  
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginSpotify input[type="email"],
+.loginSpotify input[type="password"] {
+  width: calc(100% - 40px); 
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #f8f9fa; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem; 
+  outline: none;
+}
+
+.loginSpotify input[type="email"]::placeholder,
+.loginSpotify input[type="password"]::placeholder {
+  color: #999;
+}
+
+.loginSpotify button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50; 
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.loginSpotify button:hover {
+  background-color: #45a049; 
+}
+
+
+
+.whiteBox {
+  max-width: 1000px;
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.whiteBox h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 10px;
+}
+
+.whiteBox table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.whiteBox th,
+.whiteBox td {
+  padding: 15px;
+  border: 1px solid #4CAF50;
+}
+
+.whiteBox th {
+  background-color: #dff0d8;
+}
+
+.whiteBox td {
+  background-color: #fff;
+}
+
+.whiteBox tr:nth-child(even) td {
+  background-color: #f8f9fa;
+}
+
+
+
+
+<!--feedback-->
+
+.feedbackBox {
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedbackInput {
+  width: calc(100% - 40px);
+  padding: 15px;
+  padding-bottom: 100px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  outline: none;
+  max-width: 600px;
+}
+
+.feedbackInput::placeholder {
+  color: #999;
+}
+
+.submitFeedbackButton {
+  max-width: 600px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitFeedbackButton:hover {
+  background-color: #45a049;
+}
+
+.logo {
+  border-radius: 15px;
+}
